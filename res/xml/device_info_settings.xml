@@ -77,6 +77,11 @@
                 android:title="@string/firmware_version"
                 android:summary="@string/summary_placeholder"/>
 
+        <!-- Cardinal-AOSP  version -->
+        <Preference android:key="cardinal_version"
+                android:title="@string/cardinal_version"
+                android:summary="@string/device_info_default" />
+
         <!-- Security patch level -->
         <Preference android:key="security_patch"
                 android:title="@string/security_patch"
