@@ -22,4 +22,7 @@
 
     <!--Cardinal-AOSP Version-->
      <string name="cardinal_version">Cardinal-AOSP Version</string>
+
+    <!-- Developee options -->
+    <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
 </resources>
