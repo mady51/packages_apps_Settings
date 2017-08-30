@@ -28,4 +28,8 @@
 
     <!-- About phone screen, Cardinal-AOSP device maintainer name -->
     <string name="device_maintainer">Maintainer</string>
+
+    <!-- Wings Settings -->
+    <string name="cardinal_settings_activity">The Wings!</string>
+    <string name="cardinal_settings_activity_summary">Additional Customizations</string>
 </resources>
