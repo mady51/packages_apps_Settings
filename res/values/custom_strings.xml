@@ -18,6 +18,7 @@
 
     <!-- Changelog -->
     <string name="changelog_custom_title">Changelog</string>
+    <string name="changelog_custom_summary">List of changes since last build</string>
     <string name="changelog_custom_error">Unable to load changelog</string>
 
     <!--Cardinal-AOSP Version-->
