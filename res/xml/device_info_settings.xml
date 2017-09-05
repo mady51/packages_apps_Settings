@@ -17,6 +17,11 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
+        <!-- Cardinal-AOSP Header -->
+        <Preference android:key="cardinal_logo"
+                    android:enabled="false"
+                    android:layout="@layout/about_cardinal_header" />
+
         <!-- System update settings - launches activity -->
         <Preference android:key="additional_system_update_settings"
                     android:title="@string/additional_system_update_settings_list_item_title">
@@ -25,12 +30,18 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </Preference>
 
+        <!-- About Devs -->
+        <Preference
+                android:key="dev_info"
+                android:title="@string/cardinal_about_info"
+                android:summary="@string/cardinal_about_info_summary_title"
+                android:fragment="com.android.settings.custom.CardinalDevsInfoFragment" />
+
         <!-- Changelog -->
         <Preference android:key="changelog"
                 android:title="@string/changelog_custom_title"
                 android:summary="@string/changelog_custom_summary"
                 android:fragment="com.android.settings.custom.Changelog" />
-
 
         <!-- Device status - launches activity -->
         <Preference android:key="status_info"

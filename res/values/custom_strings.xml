@@ -33,4 +33,18 @@
     <!-- Wings Settings -->
     <string name="cardinal_settings_activity">The Wings!</string>
     <string name="cardinal_settings_activity_summary">Additional Customizations</string>
+
+    <!-- Dev Info -->
+    <string name="cardinal_about_info">About Project</string>
+    <string name="cardinal_about_info_summary_title">Get to know about us!</string>
+    <string name="cardinal_about_info_summary">Cardinal-AOSP is a Custom ROM based on AOSP, with little patches from CAF to support Non-AOSP devices, with some most required minimal features, the main aim of this ROM is to stay near to AOSP as possible,  deliver light speed performance, smoothness and good battery backup. We hope that you\'ll love this project, and help us in shaping it even better in the future.</string>
+    <string name="devs_header">Developers</string>
+    <string name="maintainers_header">Maintainers</string>
+    <string name="dev_1">Adarsh M.R</string>
+    <string name="dev1_description">Founder/Developer, Kenzo Co-Maintainer</string>
+    <string name="dev_2">Rohit Poroli</string>
+    <string name="dev2_description">Co-Founder/Developer</string>
+    <string name="dev_5">WIP #1</string>
+    <string name="dev5_description">Device</string>
+
 </resources>
