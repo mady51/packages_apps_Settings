@@ -59,12 +59,39 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:title="@string/maintainers_header" >
 
         <Preference
-            android:title="@string/dev_5"
-            android:summary="@string/dev5_description"
+            android:title="@string/maintainer_aashish_t"
+            android:summary="@string/maintainer_aashish_t_device"
             android:icon="@drawable/ic_devs_phone">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="http://forum.xda-developers.com/member.php?u=7060642" />
+            android:data="https://plus.google.com/102057270198836881405" />
+        </Preference>
+
+        <Preference
+            android:title="@string/maintainer_aditya_garg"
+            android:summary="@string/maintainer_aditya_garg_device"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/118340790645933812226" />
+        </Preference>
+
+        <Preference
+            android:title="@string/maintainer_davide_garberi"
+            android:summary="@string/maintainer_davide_garberi_device"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/115785202200164215005" />
+        </Preference>
+
+        <Preference
+            android:title="@string/maintainer_rahif_manjatha"
+            android:summary="@string/maintainer_rahif_manjatha_device"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/+RahifManjatha" />
         </Preference>
 
 </PreferenceCategory>
