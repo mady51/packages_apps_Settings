@@ -30,6 +30,15 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </Preference>
 
+        <!-- OTA -->
+        <Preference android:key="cardinal_ota"
+                    android:title="@string/cardinal_ota_settings_title"
+                    android:summary="@string/cardinal_ota_settings_summary">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.cardinal.ota"
+                    android:targetClass="com.cardinal.ota.MainActivity" />
+        </Preference>
+
         <!-- About Devs -->
         <Preference
                 android:key="dev_info"

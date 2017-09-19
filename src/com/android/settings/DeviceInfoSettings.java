@@ -28,6 +28,7 @@ import com.android.settings.dashboard.SummaryLoader;
 import com.android.settings.deviceinfo.AdditionalSystemUpdatePreferenceController;
 import com.android.settings.deviceinfo.BasebandVersionPreferenceController;
 import com.android.settings.deviceinfo.BuildNumberPreferenceController;
+import com.android.settings.deviceinfo.CardinalOTAPreferenceController;
 import com.android.settings.deviceinfo.CardinalVersionPreference;
 import com.android.settings.deviceinfo.DeviceMaintainerPreference;
 import com.android.settings.deviceinfo.DeviceModelPreferenceController;
@@ -133,6 +134,8 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
         controllers.add(new SafetyInfoPreferenceController(context));
         controllers.add(new CardinalVersionPreference(context));
         controllers.add(new DeviceMaintainerPreference(context));
+        controllers.add(new CardinalOTAPreferenceController(context));
+
         return controllers;
     }
 

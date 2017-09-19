@@ -64,4 +64,7 @@
     <!-- Volume settings - Volume adjustment sound -->
     <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
 
+    <!-- OTA -->
+    <string name="cardinal_ota_settings_title">OTA Update</string>
+    <string name="cardinal_ota_settings_summary">Check for new updates!</string>
 </resources>
