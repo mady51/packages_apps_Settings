@@ -3305,6 +3305,17 @@
                        android:resource="@string/cardinal_settings_activity_summary"/>
         </activity>
 
+        <!-- Navigation bar settings activity. -->
+        <activity android:name=".Settings$NavigationBarSettingsActivity"
+                android:label="@string/navigationbar_settings_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.cardinal.settings.fragments.NavigationBarSettings" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
 
     </application>
