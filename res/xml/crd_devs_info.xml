@@ -25,7 +25,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                android:summary="@string/cardinal_about_info_summary" 
                android:icon="@drawable/ic_devs_info" >
         <intent android:action="android.intent.action.VIEW"
-                android:data="https://plus.google.com/wm/2/se/1/communities/110928715574226998482" />
+                android:data="https://plus.google.com/communities/110928715574226998482" />
        </Preference>
      </PreferenceCategory>
 
