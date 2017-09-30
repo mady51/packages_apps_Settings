@@ -3316,6 +3316,17 @@
                 android:value="com.cardinal.settings.fragments.NavigationBarSettings" />
         </activity>
 
+        <!-- QuickSettings activity. -->
+        <activity android:name=".Settings$QuickSettingsActivity"
+                android:label="@string/quicksettings_category">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.cardinal.settings.fragments.QuickSettings" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
 
     </application>
