@@ -94,6 +94,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:data="https://plus.google.com/+RahifManjatha" />
         </Preference>
 
+        <Preference
+            android:title="@string/maintainer_keerten"
+            android:summary="@string/maintainer_keerten_device"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/112795995078913219728" />
+        </Preference>
+
 </PreferenceCategory>
 
 </PreferenceScreen>
