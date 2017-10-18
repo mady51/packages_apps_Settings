@@ -103,6 +103,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:data="https://plus.google.com/112795995078913219728" />
         </Preference>
 
+        <Preference
+            android:title="@string/maintainer_ayush_dubey"
+            android:summary="@string/maintainer_ayush_dubey_device"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/+AyushDubeyd70" />
+        </Preference>
+
 </PreferenceCategory>
 
 </PreferenceScreen>

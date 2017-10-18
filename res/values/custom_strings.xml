@@ -54,6 +54,8 @@
     <string name="maintainer_rahif_manjatha_device">Falcon | Mido</string>
     <string name="maintainer_keerten">Keerten</string>
     <string name="maintainer_keerten_device">Athene</string>
+    <string name="maintainer_ayush_dubey">Ayush Dubey (Ayushd70)</string>
+    <string name="maintainer_ayush_dubey_device">Wt88047</string>
 
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Brightness</string>
