@@ -121,6 +121,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:data="https://plus.google.com/+sathishkumar2026" />
         </Preference>
 
+        <Preference
+            android:title="@string/maintainer_subham_p"
+            android:summary="@string/maintainer_subham_p_device"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/+subhampadhi" />
+        </Preference>
+
 </PreferenceCategory>
 
 </PreferenceScreen>
