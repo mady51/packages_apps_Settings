@@ -171,4 +171,8 @@
     <string name="twilight_mode_location_disabled">Location access is disabled</string>
     <string name="twilight_mode_location_enable">Enable</string>
 
+    <!-- Themes -->
+    <string name="themes_title">Themes</string>
+    <string name="themes_dashboard_summary">Manage your themes</string>
+
 </resources>
