@@ -15,7 +15,7 @@ implied.
 
 <PreferenceScreen
 xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="Cardinal-AOSP">
+        android:title="Cardinal-Xtended">
 
 <PreferenceCategory
               android:key="about"
@@ -25,7 +25,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                android:summary="@string/cardinal_about_info_summary" 
                android:icon="@drawable/ic_devs_info" >
         <intent android:action="android.intent.action.VIEW"
-                android:data="https://plus.google.com/communities/110928715574226998482" />
+                android:data="https://forum.xda-developers.com/oneplus-3/oneplus-3--3t-cross-device-development/cardinal-aosp-5-0-android-8-0-pre-t3693585" />
        </Preference>
      </PreferenceCategory>
 
@@ -39,7 +39,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:icon="@drawable/ic_devs_pc" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://plus.google.com/+AdarshMR1" />
+            android:data="https://forum.xda-developers.com/member.php?u=7072514" />
         </Preference>
 
         <Preference
@@ -48,12 +48,30 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:icon="@drawable/ic_devs_pc" >
         <intent
             android:action="android.intent.action.VIEW"
+            android:data="https://forum.xda-developers.com/member.php?u=4987653" />
+        </Preference>
+
+        <Preference
+            android:title="@string/dev_3"
+            android:summary="@string/dev3_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/+AdarshMR1" />
+        </Preference>
+
+        <Preference
+            android:title="@string/dev_4"
+            android:summary="@string/dev4_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
             android:data="https://plus.google.com/+RohitPoroli" />
         </Preference>
 
 </PreferenceCategory>
 
-
+<!--
 <PreferenceCategory
             android:key="maintainer"
             android:title="@string/maintainers_header" >
@@ -148,6 +166,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:data="https://plus.google.com/+PrakharSrivastavaLuv" />
         </Preference>
 
-</PreferenceCategory>
+</PreferenceCategory>-->
 
 </PreferenceScreen>
