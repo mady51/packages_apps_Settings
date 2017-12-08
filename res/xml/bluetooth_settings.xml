@@ -36,6 +36,10 @@
             android:key="bt_received_files"
             android:title="@string/bluetooth_show_received_files" />
 
+        <SwitchPreference
+            android:key="bluetooth_accept_all_files"
+            android:title="@string/bluetooth_accept_all_files" />
+
     </PreferenceCategory>
 
     <com.android.settingslib.widget.FooterPreference />

@@ -368,6 +368,7 @@ public class BluetoothSettings extends DeviceListPreferenceFragment implements I
         controllers.add(mDeviceNamePrefController);
         controllers.add(mPairingPrefController);
         controllers.add(new BluetoothFilesPreferenceController(context));
+        controllers.add(new BluetoothAcceptAllFilesPreferenceController(context));
         controllers.add(new BluetoothDeviceRenamePreferenceController(context, this, lifecycle));
 
         return controllers;
