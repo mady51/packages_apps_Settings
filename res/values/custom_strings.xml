@@ -175,4 +175,13 @@
     <string name="themes_title">Themes</string>
     <string name="themes_dashboard_summary">Manage your themes</string>
 
+   <!-- Manage applications: show substratum overlays -->
+   <string name="filter_substratum_apps">Substratum overlays</string>
+   <string name="menu_show_substratum">Show overlays</string>
+   <string name="menu_hide_substratum">Hide overlays</string>
+
+   <!-- Quick unlock -->
+   <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+   <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+
 </resources>
