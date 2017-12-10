@@ -3370,6 +3370,19 @@
                 android:value="true" />
         </activity>
 
+        <!-- Notification settings activity. -->
+        <activity android:name="Settings$NotificationSettingsActivity"
+                android:label="@string/notification_settings_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.cardinal.settings.fragments.NotificationSettings" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
 

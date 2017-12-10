@@ -136,6 +136,7 @@ import com.cardinal.settings.WingsSettings;
 import com.cardinal.settings.fragments.HeadsUpSettings;
 import com.cardinal.settings.fragments.QuickSettings;
 import com.cardinal.settings.fragments.NavigationBarSettings;
+import com.cardinal.settings.fragments.NotificationSettings;
 
 public class SettingsGateway {
 
@@ -261,7 +262,8 @@ public class SettingsGateway {
             WingsSettings.class.getName(),
             NavigationBarSettings.class.getName(),
             QuickSettings.class.getName(),
-            HeadsUpSettings.class.getName()
+            HeadsUpSettings.class.getName(),
+            NotificationSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
