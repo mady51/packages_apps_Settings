@@ -60,7 +60,9 @@
     <string name="maintainer_sathish_device">Mido</string>
     <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
     <string name="maintainer_subham_p_device">Kuntao</string>
-
+    <string name="maintainer_prakash_choudhary">Prakash Choudhary (prakash18399)</string>
+    <string name="maintainer_prakash_choudhary_device">Land</string>
+     
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Brightness</string>
     <string name="night_brightness_value_title">Lower brightness if Night Light</string>
