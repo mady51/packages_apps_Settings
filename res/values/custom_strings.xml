@@ -62,6 +62,8 @@
     <string name="maintainer_subham_p_device">Kuntao</string>
     <string name="maintainer_prakash_choudhary">Prakash Choudhary (prakash18399)</string>
     <string name="maintainer_prakash_choudhary_device">Land</string>
+    <string name="maintainer_prakhar_srivastava">Prakhar Srivastava (prakharluv)</string>
+    <string name="maintainer_prakhar_srivastava_device">Z00L</string>
      
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Brightness</string>
