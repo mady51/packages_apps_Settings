@@ -133,7 +133,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.cardinal.settings.WingsSettings;
-import com.cardinal.settings.fragments.HeadsUpSettings;
+import com.cardinal.settings.fragments.NotificationStyleSettings;
 import com.cardinal.settings.fragments.QuickSettings;
 import com.cardinal.settings.fragments.NavigationBarSettings;
 import com.cardinal.settings.fragments.NotificationSettings;
@@ -262,7 +262,7 @@ public class SettingsGateway {
             WingsSettings.class.getName(),
             NavigationBarSettings.class.getName(),
             QuickSettings.class.getName(),
-            HeadsUpSettings.class.getName(),
+            NotificationStyleSettings.class.getName(),
             NotificationSettings.class.getName()
     };
 
