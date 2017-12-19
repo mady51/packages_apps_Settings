@@ -137,6 +137,7 @@ import com.cardinal.settings.fragments.NotificationStyleSettings;
 import com.cardinal.settings.fragments.QuickSettings;
 import com.cardinal.settings.fragments.NavigationBarSettings;
 import com.cardinal.settings.fragments.NotificationSettings;
+import com.android.settings.custom.DisplayRotation;
 
 public class SettingsGateway {
 
@@ -263,7 +264,8 @@ public class SettingsGateway {
             NavigationBarSettings.class.getName(),
             QuickSettings.class.getName(),
             NotificationStyleSettings.class.getName(),
-            NotificationSettings.class.getName()
+            NotificationSettings.class.getName(),
+            DisplayRotation.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
