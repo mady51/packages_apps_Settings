@@ -52,6 +52,8 @@
   <string name="maintainer_ayush_dubey_device">Wt88047</string>
   <string name="maintainer_sathish">Sathish (Sathish2026)</string>
   <string name="maintainer_sathish_device">Mido</string>
+  <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
+  <string name="maintainer_subham_p_device">Kuntao</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Brillo</string>
   <string name="night_brightness_value_title">Reducir brillo Si luz de noche</string>
@@ -149,9 +151,21 @@
   <!-- Encryption and credential -->
   <string name="custom_encryption_and_credential_settings_summary_on">Dispositivo está encriptado</string>
   <string name="custom_encryption_and_credential_settings_summary_off">Dispositivo está desencriptado</string>
+  <string name="twilight_mode_location_dialog">Localización deshabilitada</string>
+  <string name="twilight_mode_location_disabled">Servicios de ubicación desactivados</string>
+  <string name="twilight_mode_location_enable">Habilitar</string>
   <!-- Themes -->
+  <string name="themes_title">Temas</string>
+  <string name="themes_dashboard_summary">Administrar temas</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Capas Substratum</string>
+  <string name="menu_show_substratum">Mostrar capas</string>
+  <string name="menu_hide_substratum">Ocultar capas</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
+  <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se introduce el PIN/clave correcto</string>
   <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
   <string name="bluetooth_accept_all_files">Aceptar todos los tipos de archivo</string>
+  <!-- Unlink notification volume -->
+  <!-- Display : Rotation -->
 </resources>

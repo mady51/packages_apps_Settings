@@ -52,6 +52,8 @@
   <string name="maintainer_ayush_dubey_device">Wt88047</string>
   <string name="maintainer_sathish">Sathish (Sathish2026)</string>
   <string name="maintainer_sathish_device">Mido</string>
+  <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
+  <string name="maintainer_subham_p_device">Kuntao</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">चमक</string>
   <string name="night_brightness_value_title">रात्री प्रकाश में चमक को धीमा करे</string>
@@ -153,8 +155,17 @@
   <string name="twilight_mode_location_disabled">स्थान पहुंच अक्षम है</string>
   <string name="twilight_mode_location_enable">सक्षम करें</string>
   <!-- Themes -->
+  <string name="themes_title">थीम्स</string>
+  <string name="themes_dashboard_summary">थीम प्रबंधित करें</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum ओवरले</string>
+  <string name="menu_show_substratum">ओवरले दिखाएँ</string>
+  <string name="menu_hide_substratum">ओवरले छुपाएँ</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">त्वरित अनलॉक</string>
+  <string name="unlock_quick_unlock_control_summary">सही पिन/पासवर्ड दर्ज करने पर स्वतः खोले</string>
   <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
   <string name="bluetooth_accept_all_files">सभी प्रकार के फ़ाइल को स्वीकार करें</string>
+  <!-- Unlink notification volume -->
+  <!-- Display : Rotation -->
 </resources>

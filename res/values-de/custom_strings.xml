@@ -37,6 +37,7 @@
   <string name="dev_1">Adarsh M.R</string>
   <string name="dev1_description">Gründer/Entwickler, Kenzo Co-Maintainer</string>
   <string name="dev_2">Rohit Poroli</string>
+  <string name="dev2_description">Co-Gründer/Entwickler</string>
   <string name="maintainer_aashish_t">Aashish Toshniwal (Aashish16)</string>
   <string name="maintainer_aashish_t_device">Kenzo | Lettuce</string>
   <string name="maintainer_aditya_garg">Aditya Garg (PhenomX1998)</string>
@@ -51,8 +52,11 @@
   <string name="maintainer_ayush_dubey_device">Wt88047</string>
   <string name="maintainer_sathish">Sathish (Sathish2026)</string>
   <string name="maintainer_sathish_device">Mido</string>
+  <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
+  <string name="maintainer_subham_p_device">Kuntao</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Helligkeit</string>
+  <string name="night_brightness_value_title">Helligkeit zu senken, wenn Nachtlicht</string>
   <string name="night_bright_disabled">Deaktiviert</string>
   <string name="night_bright_minimum">Minimale Helligkeit</string>
   <string name="night_bright_low">Niedrige Helligkeit</string>
@@ -86,12 +90,16 @@
   <string name="app_ops_make_phone_call">anrufen</string>
   <string name="app_ops_modify_calendar">Kalendereinträge bearbeiten</string>
   <string name="app_ops_modify_call_log">Anrufliste bearbeiten</string>
+  <string name="app_ops_modify_clipboard">zwischenablage anpassen</string>
   <string name="app_ops_modify_contacts">Kontakte bearbeiten</string>
   <string name="app_ops_modify_settings">Einstellungen bearbeiten</string>
   <string name="app_ops_mute_unmute_microphone">Mikrofon aktivieren/deaktivieren</string>
   <string name="app_ops_play_audio">Audio wiedergeben</string>
+  <string name="app_ops_post_notification">sende Benachrichtigung</string>
+  <string name="app_ops_project_media">medien zu projizieren</string>
   <string name="app_ops_read_calendar">Kalendereinträge lesen</string>
   <string name="app_ops_read_call_log">Anrufliste lesen</string>
+  <string name="app_ops_read_clipboard">zwischenablage lesen</string>
   <string name="app_ops_read_contacts">Kontakte lesen</string>
   <string name="app_ops_read_mms">MMS lesen</string>
   <string name="app_ops_read_sms">SMS lesen</string>
@@ -119,11 +127,15 @@
   <string name="app_ops_change_wallpaper">Hintergrundbild ändern</string>
   <string name="app_ops_assist_structure">Strukturassistent</string>
   <string name="app_ops_assist_screenshot">Screenshot</string>
+  <string name="app_ops_use_body_sensors">körpersensoren zu verwenden</string>
+  <string name="app_ops_read_cell_broadcasts">cell-Broadcasts zu lesen</string>
+  <string name="app_ops_mock_location">Standort simulieren</string>
   <string name="app_ops_read_external_storage">externen Speicher lesen.</string>
   <string name="app_ops_write_external_storage">auf externen Speicher schreiben.</string>
   <string name="app_ops_turn_on_screen">Bildschirm einschalten</string>
   <string name="app_ops_get_accounts">Geräte-Konten</string>
   <string name="app_ops_run_in_background">im Hintergrund ausführen</string>
+  <string name="app_ops_accessibility_volume">barrierefreiheit-Volumen</string>
   <string name="app_ops_read_phone_numbers">Telefonnummer lesen.</string>
   <string name="app_ops_request_install_packages">Paket installieren</string>
   <string name="app_ops_picture_in_picture">Bild in Bild</string>
@@ -143,8 +155,11 @@
   <string name="twilight_mode_location_disabled">Ortungsdienste deaktiviert</string>
   <string name="twilight_mode_location_enable">Aktivieren</string>
   <!-- Themes -->
+  <string name="themes_title">Themen</string>
   <!-- Manage applications: show substratum overlays -->
   <!-- Quick unlock -->
   <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
   <string name="bluetooth_accept_all_files">Alle Dateitypen akzeptieren</string>
+  <!-- Unlink notification volume -->
+  <!-- Display : Rotation -->
 </resources>

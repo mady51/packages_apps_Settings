@@ -52,6 +52,8 @@
   <string name="maintainer_ayush_dubey_device">Wt88047</string>
   <string name="maintainer_sathish">Sathish (Sathish2026)</string>
   <string name="maintainer_sathish_device">Mido</string>
+  <string name="maintainer_subham_p">SubhamP (Subhaam)</string>
+  <string name="maintainer_subham_p_device">Kuntao</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Ljusstyrka</string>
   <string name="night_brightness_value_title">Lägre ljusstyrka om det är nattljus</string>
@@ -153,8 +155,17 @@
   <string name="twilight_mode_location_disabled">Platsåtkomst är inaktiverad</string>
   <string name="twilight_mode_location_enable">Aktivera</string>
   <!-- Themes -->
+  <string name="themes_title">Teman</string>
+  <string name="themes_dashboard_summary">Hantera dina teman</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum överlager</string>
+  <string name="menu_show_substratum">Visa överlager</string>
+  <string name="menu_hide_substratum">Dölj överlager</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Snabb upplåsning</string>
+  <string name="unlock_quick_unlock_control_summary">Lås upp automatiskt när rätt PIN/lösenord har angivits</string>
   <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
   <string name="bluetooth_accept_all_files">Acceptera alla filtyper</string>
+  <!-- Unlink notification volume -->
+  <!-- Display : Rotation -->
 </resources>
