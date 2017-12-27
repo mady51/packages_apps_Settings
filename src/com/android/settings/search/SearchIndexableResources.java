@@ -88,6 +88,22 @@ import com.android.settings.wallpaper.WallpaperTypeSettings;
 import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.WifiSettings;
+
+import com.cardinal.settings.WingsSettings;
+import com.cardinal.settings.fragments.BatterySettings;
+import com.cardinal.settings.fragments.ButtonsSettings;
+import com.cardinal.settings.fragments.GeneralSettings;
+import com.cardinal.settings.fragments.LockScreenSettings;
+import com.cardinal.settings.fragments.NavigationBarSettings;
+import com.cardinal.settings.fragments.NotificationSettings;
+import com.cardinal.settings.fragments.NotificationStyleSettings;
+import com.cardinal.settings.fragments.QuickSettings;
+import com.cardinal.settings.fragments.RecentsUI;
+import com.cardinal.settings.fragments.StatusBarSettings;
+import com.cardinal.settings.fragments.Traffic;
+import com.cardinal.settings.fragments.led.BatteryLightSettings;
+import com.cardinal.settings.fragments.led.NotificationLightSettings;
+
 import java.util.Collection;
 import java.util.HashMap;
 
@@ -216,6 +232,22 @@ public final class SearchIndexableResources {
                 AutomaticStorageManagerSettings.class,
                 NO_DATA_RES_ID,
                 R.drawable.ic_settings_storage);
+
+        // Cardinal additions start
+        addIndex(BatterySettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
+        addIndex(BatteryLightSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
+        addIndex(ButtonsSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
+        addIndex(GeneralSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
+        addIndex(LockScreenSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
+        addIndex(NavigationBarSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
+        addIndex(NotificationLightSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
+        addIndex(NotificationSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
+        addIndex(NotificationStyleSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
+        addIndex(QuickSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
+        addIndex(RecentsUI.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
+        addIndex(StatusBarSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
+        addIndex(Traffic.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
+        addIndex(WingsSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_cardinal);
     }
 
     private SearchIndexableResources() {
