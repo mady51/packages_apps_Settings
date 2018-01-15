@@ -22,7 +22,7 @@
     <string name="changelog_custom_error">Unable to load changelog</string>
 
     <!--Cardinal-AOSP Version-->
-     <string name="cardinal_version">Cardinal-AOSP Version</string>
+     <string name="cardinal_version">Xtended Version</string>
 
     <!-- Developee options -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
@@ -37,12 +37,12 @@
     <!-- Dev Info -->
     <string name="cardinal_about_info">About Project</string>
     <string name="cardinal_about_info_summary_title">Get to know about us!</string>
-    <string name="cardinal_about_info_summary">Cardinal-AOSP is a Custom ROM based on AOSP, with little patches from CAF to support Non-AOSP devices, with some most required minimal features, the main aim of this ROM is to stay near to AOSP as possible,  deliver light speed performance, smoothness and good battery backup. We hope that you\'ll love this project, and help us in shaping it even better in the future.</string>
+    <string name="cardinal_about_info_summary">Xtended is the unoffical verson of Cardinal-AOSP having cherry-picked feature taken from different ROMs and Projects. We are trying to Xtend the Cardinal's Flying Limits.</string>
     <string name="devs_header">Developers</string>
     <string name="maintainers_header">Maintainers</string>
     <string name="dev_1">MadhuSudhan Painoori aka Mady51</string>
     <string name="dev1_description">Lead Kernel Developer, Xtended Project</string>
-    <string name="dev_2">Santosh Jha aka SuperDroid-BOND</string>
+    <string name="dev_2">Santosh Jha aka SuperDroidBond</string>
     <string name="dev2_description">Developer UI/UX, Xtended Project </string>
     <string name="dev_3">Adarsh M.R</string>
     <string name="dev3_description">Founder/Developer, Cardinal-AOSP</string>
